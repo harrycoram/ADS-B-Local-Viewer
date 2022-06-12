@@ -18,7 +18,9 @@ include_once ('settings.php');
 <div id="map"></div>
 <script>
     var DefaultLocation = [<?php echo $DefaultLocation_Lat . ',' . $DefaultLocation_Lon?>];
+    var DataSharerIP = '<?php echo $FlightRadar_Data_Sharer_IP; ?>';
 </script>
+<script src="assets/scripts/getFlights.js"></script>
 <script src="assets/scripts/map.js"></script>
 </body>
 </html>
